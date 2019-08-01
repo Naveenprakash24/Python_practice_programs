@@ -237,7 +237,7 @@ if __name__ == "__main__":
     # create a Submit Button and place into the root window 
     submit = Button(root, text="Submit", fg="Black", 
                             bg="Red", command=insert_details) 
-    submit.grid(row=13, column=1) 
+    submit.grid(row=12, column=1) 
   
     # runing the GUI 
     root.mainloop() 
